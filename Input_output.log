@@ -1,0 +1,12 @@
+input ~ python3 hotspots.py mesh.txt 3
+
+output ~
+
+Die ersten 3 Hotspot-Werte als Liste von N Paaren
+(Hotspot Element ID, Funktionswert für dieses Element):
+
+[(16, 9.10418), (112, 7.0217), (196, 5.41041)]
+
+die zu den jeweiligen Dreieckselementen gehören, wie unten angegeben:
+
+[array([ 88,  99, 100]), array([71, 82, 83]), array([ 97, 108, 109])]
